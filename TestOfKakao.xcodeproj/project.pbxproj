@@ -26,7 +26,6 @@
 		DB6EECC21EA2385000146CCC /* TopRankListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECC11EA2385000146CCC /* TopRankListFactory.swift */; };
 		DB6EECC41EA2386700146CCC /* LookUpInformationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECC31EA2386700146CCC /* LookUpInformationFactory.swift */; };
 		DB6EECC61EA246E600146CCC /* ScreenShotsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECC51EA246E600146CCC /* ScreenShotsCollectionViewCell.swift */; };
-		DB6EECC91EA24EA100146CCC /* LoadedImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECC81EA24EA100146CCC /* LoadedImageCache.swift */; };
 		DBC88E0E1EA1BFCA00794CAB /* LookUpInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC88E0D1EA1BFCA00794CAB /* LookUpInformation.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +74,6 @@
 		DB6EECC11EA2385000146CCC /* TopRankListFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRankListFactory.swift; sourceTree = "<group>"; };
 		DB6EECC31EA2386700146CCC /* LookUpInformationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookUpInformationFactory.swift; sourceTree = "<group>"; };
 		DB6EECC51EA246E600146CCC /* ScreenShotsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShotsCollectionViewCell.swift; sourceTree = "<group>"; };
-		DB6EECC81EA24EA100146CCC /* LoadedImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadedImageCache.swift; sourceTree = "<group>"; };
 		DBC88E0D1EA1BFCA00794CAB /* LookUpInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookUpInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,8 +137,6 @@
 		DB51A8AE1EA0E1A900E44FEB /* TestOfKakao */ = {
 			isa = PBXGroup;
 			children = (
-				DB6EECCA1EA26A7500146CCC /* Protocols */,
-				DB6EECC71EA24E8900146CCC /* Cache */,
 				DB6EECB81EA235C300146CCC /* Factory */,
 				DB6EECB71EA2350E00146CCC /* CustomCells */,
 				DB51A8E71EA0F2D100E44FEB /* Constants */,
@@ -211,21 +207,6 @@
 				DB6EECC31EA2386700146CCC /* LookUpInformationFactory.swift */,
 			);
 			name = Factory;
-			sourceTree = "<group>";
-		};
-		DB6EECC71EA24E8900146CCC /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				DB6EECC81EA24EA100146CCC /* LoadedImageCache.swift */,
-			);
-			name = Cache;
-			sourceTree = "<group>";
-		};
-		DB6EECCA1EA26A7500146CCC /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Protocols;
 			sourceTree = "<group>";
 		};
 		F6CD9D50D0B8FC5D083FFFF2 /* Frameworks */ = {
@@ -438,7 +419,6 @@
 				DBC88E0E1EA1BFCA00794CAB /* LookUpInformation.swift in Sources */,
 				DB51A8B81EA0E1A900E44FEB /* TestOfKakao.xcdatamodeld in Sources */,
 				DB6EECB61EA2350100146CCC /* TopRankListTableViewController.swift in Sources */,
-				DB6EECC91EA24EA100146CCC /* LoadedImageCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
