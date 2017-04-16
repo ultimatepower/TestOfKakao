@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27DBAA62B152605654DB819C /* Pods_TestOfKakao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEA0C749ED10E03595798C1 /* Pods_TestOfKakao.framework */; };
 		DB51A8B01EA0E1A900E44FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51A8AF1EA0E1A900E44FEB /* AppDelegate.swift */; };
-		DB51A8B21EA0E1A900E44FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51A8B11EA0E1A900E44FEB /* ViewController.swift */; };
 		DB51A8B51EA0E1A900E44FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB51A8B31EA0E1A900E44FEB /* Main.storyboard */; };
 		DB51A8B81EA0E1A900E44FEB /* TestOfKakao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB51A8B61EA0E1A900E44FEB /* TestOfKakao.xcdatamodeld */; };
 		DB51A8BA1EA0E1A900E44FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB51A8B91EA0E1A900E44FEB /* Assets.xcassets */; };
 		DB51A8BD1EA0E1A900E44FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB51A8BB1EA0E1A900E44FEB /* LaunchScreen.storyboard */; };
 		DB51A8C81EA0E1A900E44FEB /* TestOfKakaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51A8C71EA0E1A900E44FEB /* TestOfKakaoTests.swift */; };
 		DB51A8D31EA0E1A900E44FEB /* TestOfKakaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51A8D21EA0E1A900E44FEB /* TestOfKakaoUITests.swift */; };
+		DB51A8E61EA0F13300E44FEB /* AppInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51A8E51EA0F13300E44FEB /* AppInformation.swift */; };
+		DB51A8E91EA0F2E300E44FEB /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51A8E81EA0F2E300E44FEB /* CommonConstants.swift */; };
+		DB6EECB41EA234F100146CCC /* LookUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECB31EA234F100146CCC /* LookUpTableViewController.swift */; };
+		DB6EECB61EA2350100146CCC /* TopRankListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECB51EA2350100146CCC /* TopRankListTableViewController.swift */; };
+		DB6EECBA1EA2366800146CCC /* TopRankUnitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECB91EA2366800146CCC /* TopRankUnitTableViewCell.swift */; };
+		DB6EECBC1EA2371400146CCC /* HeaderOfLookUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECBB1EA2371400146CCC /* HeaderOfLookUpTableViewCell.swift */; };
+		DB6EECBE1EA2372E00146CCC /* ScreenShotOfLookUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECBD1EA2372E00146CCC /* ScreenShotOfLookUpTableViewCell.swift */; };
+		DB6EECC01EA2373F00146CCC /* SummaryOfLookUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECBF1EA2373F00146CCC /* SummaryOfLookUpTableViewCell.swift */; };
+		DB6EECC21EA2385000146CCC /* TopRankListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECC11EA2385000146CCC /* TopRankListFactory.swift */; };
+		DB6EECC41EA2386700146CCC /* LookUpInformationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECC31EA2386700146CCC /* LookUpInformationFactory.swift */; };
+		DB6EECC61EA246E600146CCC /* ScreenShotsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECC51EA246E600146CCC /* ScreenShotsCollectionViewCell.swift */; };
+		DB6EECC91EA24EA100146CCC /* LoadedImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EECC81EA24EA100146CCC /* LoadedImageCache.swift */; };
+		DBC88E0E1EA1BFCA00794CAB /* LookUpInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC88E0D1EA1BFCA00794CAB /* LookUpInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DEA0C749ED10E03595798C1 /* Pods_TestOfKakao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestOfKakao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E9ABF139123913A9922DE9 /* Pods-TestOfKakao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOfKakao.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestOfKakao/Pods-TestOfKakao.release.xcconfig"; sourceTree = "<group>"; };
+		9D9686F50588C5FE0B49276A /* Pods-TestOfKakao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOfKakao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestOfKakao/Pods-TestOfKakao.debug.xcconfig"; sourceTree = "<group>"; };
 		DB51A8AC1EA0E1A900E44FEB /* TestOfKakao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOfKakao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB51A8AF1EA0E1A900E44FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB51A8B11EA0E1A900E44FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB51A8B41EA0E1A900E44FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB51A8B71EA0E1A900E44FEB /* TestOfKakao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestOfKakao.xcdatamodel; sourceTree = "<group>"; };
 		DB51A8B91EA0E1A900E44FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +64,19 @@
 		DB51A8CE1EA0E1A900E44FEB /* TestOfKakaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOfKakaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB51A8D21EA0E1A900E44FEB /* TestOfKakaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOfKakaoUITests.swift; sourceTree = "<group>"; };
 		DB51A8D41EA0E1A900E44FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB51A8E51EA0F13300E44FEB /* AppInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInformation.swift; sourceTree = "<group>"; };
+		DB51A8E81EA0F2E300E44FEB /* CommonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonConstants.swift; sourceTree = "<group>"; };
+		DB6EECB31EA234F100146CCC /* LookUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookUpTableViewController.swift; sourceTree = "<group>"; };
+		DB6EECB51EA2350100146CCC /* TopRankListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRankListTableViewController.swift; sourceTree = "<group>"; };
+		DB6EECB91EA2366800146CCC /* TopRankUnitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRankUnitTableViewCell.swift; sourceTree = "<group>"; };
+		DB6EECBB1EA2371400146CCC /* HeaderOfLookUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderOfLookUpTableViewCell.swift; sourceTree = "<group>"; };
+		DB6EECBD1EA2372E00146CCC /* ScreenShotOfLookUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShotOfLookUpTableViewCell.swift; sourceTree = "<group>"; };
+		DB6EECBF1EA2373F00146CCC /* SummaryOfLookUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryOfLookUpTableViewCell.swift; sourceTree = "<group>"; };
+		DB6EECC11EA2385000146CCC /* TopRankListFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRankListFactory.swift; sourceTree = "<group>"; };
+		DB6EECC31EA2386700146CCC /* LookUpInformationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookUpInformationFactory.swift; sourceTree = "<group>"; };
+		DB6EECC51EA246E600146CCC /* ScreenShotsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShotsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB6EECC81EA24EA100146CCC /* LoadedImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadedImageCache.swift; sourceTree = "<group>"; };
+		DBC88E0D1EA1BFCA00794CAB /* LookUpInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookUpInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DBAA62B152605654DB819C /* Pods_TestOfKakao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B4F090776353A21FE715F75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D9686F50588C5FE0B49276A /* Pods-TestOfKakao.debug.xcconfig */,
+				67E9ABF139123913A9922DE9 /* Pods-TestOfKakao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DB51A8A31EA0E1A800E44FEB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				DB51A8C61EA0E1A900E44FEB /* TestOfKakaoTests */,
 				DB51A8D11EA0E1A900E44FEB /* TestOfKakaoUITests */,
 				DB51A8AD1EA0E1A900E44FEB /* Products */,
+				5B4F090776353A21FE715F75 /* Pods */,
+				F6CD9D50D0B8FC5D083FFFF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +139,20 @@
 		DB51A8AE1EA0E1A900E44FEB /* TestOfKakao */ = {
 			isa = PBXGroup;
 			children = (
+				DB6EECCA1EA26A7500146CCC /* Protocols */,
+				DB6EECC71EA24E8900146CCC /* Cache */,
+				DB6EECB81EA235C300146CCC /* Factory */,
+				DB6EECB71EA2350E00146CCC /* CustomCells */,
+				DB51A8E71EA0F2D100E44FEB /* Constants */,
+				DB51A8E41EA0F0E600E44FEB /* DataModel */,
 				DB51A8AF1EA0E1A900E44FEB /* AppDelegate.swift */,
-				DB51A8B11EA0E1A900E44FEB /* ViewController.swift */,
 				DB51A8B31EA0E1A900E44FEB /* Main.storyboard */,
 				DB51A8B91EA0E1A900E44FEB /* Assets.xcassets */,
 				DB51A8BB1EA0E1A900E44FEB /* LaunchScreen.storyboard */,
 				DB51A8BE1EA0E1A900E44FEB /* Info.plist */,
 				DB51A8B61EA0E1A900E44FEB /* TestOfKakao.xcdatamodeld */,
+				DB6EECB31EA234F100146CCC /* LookUpTableViewController.swift */,
+				DB6EECB51EA2350100146CCC /* TopRankListTableViewController.swift */,
 			);
 			path = TestOfKakao;
 			sourceTree = "<group>";
@@ -128,6 +175,67 @@
 			path = TestOfKakaoUITests;
 			sourceTree = "<group>";
 		};
+		DB51A8E41EA0F0E600E44FEB /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB51A8E51EA0F13300E44FEB /* AppInformation.swift */,
+				DBC88E0D1EA1BFCA00794CAB /* LookUpInformation.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		DB51A8E71EA0F2D100E44FEB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DB51A8E81EA0F2E300E44FEB /* CommonConstants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		DB6EECB71EA2350E00146CCC /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				DB6EECB91EA2366800146CCC /* TopRankUnitTableViewCell.swift */,
+				DB6EECBB1EA2371400146CCC /* HeaderOfLookUpTableViewCell.swift */,
+				DB6EECBD1EA2372E00146CCC /* ScreenShotOfLookUpTableViewCell.swift */,
+				DB6EECBF1EA2373F00146CCC /* SummaryOfLookUpTableViewCell.swift */,
+				DB6EECC51EA246E600146CCC /* ScreenShotsCollectionViewCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		DB6EECB81EA235C300146CCC /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				DB6EECC11EA2385000146CCC /* TopRankListFactory.swift */,
+				DB6EECC31EA2386700146CCC /* LookUpInformationFactory.swift */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		DB6EECC71EA24E8900146CCC /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				DB6EECC81EA24EA100146CCC /* LoadedImageCache.swift */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		DB6EECCA1EA26A7500146CCC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		F6CD9D50D0B8FC5D083FFFF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DEA0C749ED10E03595798C1 /* Pods_TestOfKakao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB51A8D71EA0E1A900E44FEB /* Build configuration list for PBXNativeTarget "TestOfKakao" */;
 			buildPhases = (
+				2586F8DF795498C88DBF4050 /* [CP] Check Pods Manifest.lock */,
 				DB51A8A81EA0E1A900E44FEB /* Sources */,
 				DB51A8A91EA0E1A900E44FEB /* Frameworks */,
 				DB51A8AA1EA0E1A900E44FEB /* Resources */,
+				37810FFA03759325F092CF94 /* [CP] Embed Pods Frameworks */,
+				57628F5F5E9F8F4DB28CD7F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +371,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2586F8DF795498C88DBF4050 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37810FFA03759325F092CF94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestOfKakao/Pods-TestOfKakao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57628F5F5E9F8F4DB28CD7F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestOfKakao/Pods-TestOfKakao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB51A8A81EA0E1A900E44FEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB51A8B21EA0E1A900E44FEB /* ViewController.swift in Sources */,
+				DB6EECB41EA234F100146CCC /* LookUpTableViewController.swift in Sources */,
+				DB6EECBE1EA2372E00146CCC /* ScreenShotOfLookUpTableViewCell.swift in Sources */,
+				DB6EECC61EA246E600146CCC /* ScreenShotsCollectionViewCell.swift in Sources */,
+				DB51A8E91EA0F2E300E44FEB /* CommonConstants.swift in Sources */,
+				DB6EECC41EA2386700146CCC /* LookUpInformationFactory.swift in Sources */,
+				DB6EECBA1EA2366800146CCC /* TopRankUnitTableViewCell.swift in Sources */,
+				DB6EECC21EA2385000146CCC /* TopRankListFactory.swift in Sources */,
 				DB51A8B01EA0E1A900E44FEB /* AppDelegate.swift in Sources */,
+				DB6EECBC1EA2371400146CCC /* HeaderOfLookUpTableViewCell.swift in Sources */,
+				DB51A8E61EA0F13300E44FEB /* AppInformation.swift in Sources */,
+				DB6EECC01EA2373F00146CCC /* SummaryOfLookUpTableViewCell.swift in Sources */,
+				DBC88E0E1EA1BFCA00794CAB /* LookUpInformation.swift in Sources */,
 				DB51A8B81EA0E1A900E44FEB /* TestOfKakao.xcdatamodeld in Sources */,
+				DB6EECB61EA2350100146CCC /* TopRankListTableViewController.swift in Sources */,
+				DB6EECC91EA24EA100146CCC /* LoadedImageCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +590,7 @@
 		};
 		DB51A8D81EA0E1A900E44FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9686F50588C5FE0B49276A /* Pods-TestOfKakao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3K5VUR9Z69;
@@ -432,6 +604,7 @@
 		};
 		DB51A8D91EA0E1A900E44FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E9ABF139123913A9922DE9 /* Pods-TestOfKakao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3K5VUR9Z69;
@@ -520,6 +693,7 @@
 				DB51A8D91EA0E1A900E44FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB51A8DA1EA0E1A900E44FEB /* Build configuration list for PBXNativeTarget "TestOfKakaoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +702,7 @@
 				DB51A8DC1EA0E1A900E44FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB51A8DD1EA0E1A900E44FEB /* Build configuration list for PBXNativeTarget "TestOfKakaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +711,7 @@
 				DB51A8DF1EA0E1A900E44FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
